@@ -1,0 +1,235 @@
+
+body{
+    background-image: url(florence.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+    
+
+}
+ header a:first-child{
+
+    margin-left: 100px;
+    
+    
+
+
+}
+ header a{
+    
+    margin: 30px;
+    color:#51279b;
+    font-family:"Arial";
+    font-weight: bold;
+    text-decoration: none; /* found out how to get rid of underline in a tags in homepage using geeks for geeks tutorial*/
+ /*https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
+}
+header a:hover{   /*https://www.w3schools.com/cssref/sel_hover.asp I used this link from W3schools to figure out how to change the text color when hovering over it */
+    color: #8662c7;
+}
+ .wordsCoveringBackground{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.wordsCoveringBackground #bigWhiteText{
+    color: white;
+    margin-top: 130px;
+    margin-left: 93px;
+    font-family: "Arial";
+    font-size: 48px;
+    margin-bottom: 38px;
+    font-weight: bold;
+}
+ .wordsCoveringBackground #smallWhiteText{
+    color: white;
+    margin-left: 93px;
+    font-size: 24px;
+    font-family: "Arial";
+
+}
+ .wordsCoveringBackground #learnMore{
+    color: white;
+    background-color: #51279b;
+    text-decoration: none;
+        margin-left: 93px;
+        padding: 20px;
+        font-weight: lighter;
+        font-size: small;
+        font-family: "Arial";
+               
+}
+.wordsCoveringBackground #learnMore:hover{
+    color:  #8662c7;
+}
+.cards a{
+    text-decoration: none;
+}
+.card1{
+   /* margin-top: 310px;
+    margin-left: 50px;
+ */
+display: inline-block;
+ background-repeat:no-repeat;
+ width: fit-content;
+ background-size: auto;
+ background-color: white;
+
+ 
+    
+}
+.card1 #titleCard1 {
+    font-size: 14px;
+    color: black;
+    font-family: "Arial";
+    
+
+}
+
+.card1 #card1Desc {
+    font-size: 12px;
+    color:black;
+    font-family: "Arial";
+}
+.card1 #heart{
+    width: 9px;
+    height: 9px;
+    display: inline;
+    
+}
+.card1 #numberOfHearts{
+
+    display: inline;
+    font-size: 10px;
+    padding-right: 10px;
+    font-family: "Arial";
+
+
+}
+.card1 #comment{
+    width: 9px;
+    height: 9px;
+    display: inline;
+
+}
+.card1 #numberOfComments{
+    display: inline;
+    font-size: 10px;
+    font-family: "Arial";
+}
+.card2{
+     /* margin-top: 310px; */
+    /*margin-left: 50px; */
+ 
+display: inline-block;
+ background-repeat:no-repeat;
+ width: fit-content;
+ background-size: auto;
+ background-color: white;
+}
+.card2 #titleCard2{
+    font-size: 14px;
+    color: black;
+    font-family: "Arial";
+
+}
+.card2 #card2Desc{
+    font-size: 12px;
+    color:black;
+    font-family: "Arial";
+
+}
+.card2 #heart{
+    width: 9px;
+    height: 9px;
+    display: inline;
+    
+}
+.card2 #numberOfHearts{
+    display: inline;
+    font-size: 10px;
+    padding-right: 10px;
+    font-family: "Arial";
+
+}
+.card2 #comment{
+    width: 9px;
+    height: 9px;
+    display: inline;
+
+}
+.card2 #numberOfComments{
+    display: inline;
+    font-size: 10px;
+    font-family: "Arial";
+}
+.card3{
+    /* margin-top: 310px; */
+   /*margin-left: 50px; */
+
+display: inline-block;
+background-repeat:no-repeat;
+width: fit-content;
+background-size: auto;
+background-color: white;
+}
+.card3 #titleCard3{
+   font-size: 14px;
+   color: black;
+   font-family: "Arial";
+
+}
+.card3 #card3Desc{
+   font-size: 12px;
+   color:black;
+   font-family: "Arial";
+
+}
+.card3 #heart{
+   width: 9px;
+   height: 9px;
+   display: inline;
+   
+}
+.card3 #numberOfHearts{
+   display: inline;
+   font-size: 10px;
+   padding-right: 10px;
+   font-family: "Arial";
+
+}
+.card3 #comment{
+   width: 9px;
+   height: 9px;
+   display: inline;
+
+}
+.card3 #numberOfComments{
+   display: inline;
+   font-size: 10px;
+   font-family: "Arial";
+}
+.cards{
+    margin-left:  450px; 
+    margin-top: 340px;
+}
+footer p{
+    
+    color: white;
+    font-family: "Arial";
+}
+footer{
+    background-color: #51279b;
+    padding-left: 30px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-family: "Arial";
+
+}
+footer #bar{
+    display: inline;
+    color: white;
+}
+
